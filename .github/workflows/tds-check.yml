@@ -2,6 +2,7 @@ on:
   pull_request:
     paths:
       - '**.temporarily-disable'
+  workflow_dispatch:
 
 jobs:
   tests-adpotopenjdk-hs-8:
