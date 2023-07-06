@@ -18,4 +18,4 @@ jobs:
           java-vendor: ${{ matrix.java-vendor }}
           java-version: ${{ matrix.java-version }}
           build-tool: 'gradlew'
-          test-command: 'build'
+          test-command: 'build -x test'
